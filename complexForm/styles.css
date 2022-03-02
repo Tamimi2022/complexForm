@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  color: rgb(13, 71, 48);
+  font-size: 1.3rem;
+}
+header {
+  background-color: aqua;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-style: dotted;
+  border-bottom-color: sienna;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-text-fill-color: cadetblue;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+a {
+  color: hsl(213, 36%, 50%);
+  text-decoration: none;
+}
+img {
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 3px 3px 3px green;
+  margin: 0 auto;
+  width: 60%;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+nav {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid green;
+  text-align: center;
+  margin-bottom: 0.2rem;
+  list-style: none;
+}
+footer {
+  padding-top: 1px solid green;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+ul {
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+p {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+main {
+  margin-bottom: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main p {
+  border: solid;
+  text-align: center;
+  border-radius: 20px;
+}
+form {
+  border-width: 8px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 8px 8px 8px green;
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  padding: 100px;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  box-shadow: 8px 8px 8px green;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: brown;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  main {
+    margin: 0 20%;
+  }
+  h1 {
+    font-size: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  li {
+    font-size: 3.5rem;
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom-width: 0;
+    margin-right: 2rem;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 3rem;
+  }
+  footer {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}

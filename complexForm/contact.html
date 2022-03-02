@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Complex Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>chef's and Recipes</h1>
+    </header>
+
+    <div>
+      <h2>Contact Form</h2>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Name <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Email <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Telephone Number <input type="tel" name="phone" /></label>
+      </p>
+      <p>
+        <label>Age <input type="number" name="number" /></label>
+      </p>
+      <p>
+        <label>Date Of Birth <input type="date" name="date" /></label>
+      </p>
+      <p>
+        <label>Gender : </label>
+      </p>
+      <p>
+        <label>Male <input type="radio" name="radio" /></label>
+      </p>
+      <p>
+        <label>Female <input type="radio" name="radio" /></label>
+      </p>
+      <p>
+        <label>Favorite Cuisine : </label>
+      </p>
+      <p>
+        <label>French <input type="checkbox" name="checkbox" /></label>
+      </p>
+      <p>
+        <label>Italian <input type="checkbox" name="checkbox" /></label>
+      </p>
+      <p>
+        <label>Spanish <input type="checkbox" name="checkbox" /></label>
+      </p>
+      <p>
+        <label>Arabic <input type="checkbox" name="checkbox" /></label>
+      </p>
+      <p>
+        <label>Favorite Apron Color :</label>
+      </p>
+      <p>
+        <label> <input type="color" name="color picker" /></label>
+      </p>
+      <p>
+        <label
+          >Biography
+          <textarea name="bio" id="textarea" cols="20" rows="5"></textarea>
+        </label>
+      </p>
+      <p>
+        <label
+          >upload your latest recipe : <input type="file" name="file"
+        /></label>
+      </p>
+      <p>
+        <label>URL <input type="url" name="url" /></label>
+      </p>
+      <p>
+        <button>Reset</button>
+      </p>
+      <p>
+        <button>Send</button>
+      </p>
+    </form>
+  </body>
+</html>
